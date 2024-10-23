@@ -47,15 +47,23 @@ case'%':
     mod_result = (int)num1 % (int)num2;
    printf("%.0f / %.0f = %.0f" , num1, num2 ,mod_result);
    break;
-  
-  
-   default;
+default;
    printf("invald operaor. try again.");
    break;
      }
-printf("\n
- 
 
+ 
+ printf("Continue? (Y/N): ");
+    scanf(" %c", &operator);
+    if (operator == 'N' || operator == 'n') {
+        printf("Thank you for using Calculator\n");
+        return 0;
+    }
+    printf("\n\n");
+    goto repeat;
+
+    return 0; 
+}
 
 
 
