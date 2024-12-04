@@ -27,3 +27,38 @@ int main() {
  printf("Total Marks: %.2f\n", students[topperIndex].total_marks);
  return 0;
 }
+
+/* OUTPUT
+
+Enter details for student 1:
+Name: Hamza Siddiqui
+Roll Number: 50
+Total Marks: 100
+
+Enter details for student 2:
+Name: Firdaus Shaikh
+1Roll Number: 3
+Total Marks: 98
+
+Enter details for student 3:
+Name: Farhan shaikh
+Roll Number: 20
+Total Marks: 98
+
+Enter details for student 4:
+Name: Siraj khan
+Roll Number: 27
+Total Marks: 95
+
+Enter details for student 5:
+Name: Ayan khan
+Roll Number: 22
+Total Marks: 25
+
+Topper:
+
+Name: Hamza Siddiqui
+Roll Number: 50
+Total Marks: 100.00
+
+*/
