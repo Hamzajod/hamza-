@@ -71,3 +71,80 @@ printf("Invalid choice. Please try again.\n");
 } while (choice != 3);
 return 0;
 }
+
+/* OUTPUT
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 1
+Enter Employee ID: 67890
+Enter Employee Name: Hamza 
+Enter Employee Salary: 250000
+Employee record added successfully.
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 1
+Enter Employee ID: 67891
+Enter Employee Name: siraj
+Enter Employee Salary: 25000
+Employee record added successfully.
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 1
+Enter Employee ID: 67892
+Enter Employee Name:abdul
+Enter Employee Salary: 28000
+Employee record added successfully.
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 1
+Enter Employee ID: 67893
+Enter Employee Name:arnav
+Enter Employee Salary: 100000
+Employee record added successfully.
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 1
+Enter Employee ID: 67894
+Enter Employee Name: Saqlain Parkar
+Enter Employee Salary: 200000
+Employee record added successfully.
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 2
+
+Employee Records:
+ID      Name            Salary
+----------------------------------
+67890   hamza           250000.00
+67891   siraj           25000.00
+67892   abdul           28000.00
+67893   arnav           100000.00
+67894   Saqlain Parkar  200000.00
+
+Employee Database Menu:
+1. Add Employee
+2. Display Employees
+3. Exit
+Enter your choice: 3
+Exiting the program.
+
+
+*/
